@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 0.1rem;
+}
+
+/* Images */
+.hero-img {
+  width: 50rem;
+  height: 50rem;
+  object-fit: contain;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Lists */
+ul,
+li {
+  list-style: none;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.logo-side {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 2rem 0 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  font-size: 2rem;
+}
+
+.nav-link:hover {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 10rem;
+}
+
+.container-hero {
+  display: flex;
+}
+
+.right-side,
+.left-side {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
